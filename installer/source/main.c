@@ -196,7 +196,7 @@ int _main(struct thread *td) {
 
   // Create temp file to prevent re-running HEN
   touch_file(IS_INSTALLED_PATH);
-  printf_notification("Welcome to HEN %s", VERSION);
+  printf_notification("HEN edit By Haider Version 1.0%s", VERSION);
 
   const char *proc = kill_ui ? "SceShellUI" : NULL;
   if (kill_ui) {
